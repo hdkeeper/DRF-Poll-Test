@@ -93,7 +93,7 @@ def textPollId(request):
 @pytest.fixture(scope='class')
 def choicePollId(request):
     id = createPoll(choicePollData)
-    #request.addfinalizer(deletePollFinalizer(id))
+    request.addfinalizer(deletePollFinalizer(id))
     return id
 
 @pytest.fixture(scope='class')
