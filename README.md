@@ -54,5 +54,4 @@ pytest
 
 ## Схема данных
 
-<img src="schema.svg" width="100%" />
-
+<img src="schema.svg" />
