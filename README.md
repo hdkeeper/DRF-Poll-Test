@@ -50,3 +50,9 @@ pytest
 ## Описание API
 
 См. [API.md](API.md)
+
+
+## Схема данных
+
+<img src="schema.svg" width="100%" />
+
